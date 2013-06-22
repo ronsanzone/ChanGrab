@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ChanGrab/ChanGrab.iml" filepath="$PROJECT_DIR$/ChanGrab/ChanGrab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChanGrabProject.iml" filepath="$PROJECT_DIR$/ChanGrabProject.iml" />
+    </modules>
+  </component>
+</project>
+
