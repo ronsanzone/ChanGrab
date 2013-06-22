@@ -19,6 +19,50 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab">
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/source/rs/debug" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/debug/resources" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/res/rs/debug" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/source/aidl/debug" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/main/assets" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/main/res" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/source/buildConfig/debug" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/source/r/debug" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/debug/res" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/debug/assets" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/instrumentTest/res" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/instrumentTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/source/r/test" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/instrumentTest/java" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/source/aidl/test" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/source/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/instrumentTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/instrumentTest/assets" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/res/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/source/buildConfig/test" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/instrumentTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/src/instrumentTest/resources" isTestSource="true" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/apk" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/assets" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/bundles" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/classes" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/dependency-cache" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/exploded-bundles" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/incremental" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/libs" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/manifests" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/symbols" />
+      <excludeFolder url="file://$USER_HOME$/AndroidStudioProjects/ChanGrabProject/ChanGrab/build/tmp" />
+    </content>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/build/source/r/debug" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/build/source/aidl/debug" isTestSource="false" />

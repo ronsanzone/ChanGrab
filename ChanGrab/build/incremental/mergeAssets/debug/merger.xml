@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Users\thunaer\AndroidStudioProjects\ChanGrabProject\ChanGrab\src\main\assets" />
+        <source path="C:\Users\thunaer\Documents\GitHub\ChanGrab\ChanGrab\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\thunaer\AndroidStudioProjects\ChanGrabProject\ChanGrab\src\debug\assets" />
+        <source path="C:\Users\thunaer\Documents\GitHub\ChanGrab\ChanGrab\src\debug\assets" />
     </dataSet>
 
 </merger>
