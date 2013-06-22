@@ -1,4 +1,4 @@
-package com.android.changrab.chan.board;
+package com.android.changrab.chan;
 
 import java.util.ArrayList;
 
