@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f13f91e6-1a3c-4dec-8d71-99a5b6136593" name="Default" comment="Added basic class structure to hold api information.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/ChanGrab.java" />
-      <change type="MOVED" beforePath="C:\Users\thunaer\Documents\GitHub\ChanGrab\ChanGrab\src\main\java\com\android\changrab\chan\board\Board.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java" />
-      <change type="MOVED" beforePath="C:\Users\thunaer\Documents\GitHub\ChanGrab\ChanGrab\src\main\java\com\android\changrab\chan\post\Post.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Post.java" />
-      <change type="MOVED" beforePath="C:\Users\thunaer\Documents\GitHub\ChanGrab\ChanGrab\src\main\java\com\android\changrab\chan\thread\Thread.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java" />
+    <list default="true" id="f13f91e6-1a3c-4dec-8d71-99a5b6136593" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Post.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Post.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ChanGrab.iws" />
@@ -83,8 +83,10 @@
       <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="56" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <folding />
+            <state line="12" column="24" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding>
+                <element signature="e#169#175#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,12 +94,8 @@
       <file leaf-file-name="ChanGrab.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/ChanGrab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="23" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="1071">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#927#1259#0" expanded="true" />
-                <element signature="e#1247#1248#0" expanded="true" />
-              </folding>
+            <state line="51" column="23" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="867">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,7 +103,7 @@
       <file leaf-file-name="BoardHelper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="32" selection-start="523" selection-end="523" vertical-scroll-proportion="0.19247788" vertical-offset="304" max-vertical-offset="867">
+            <state line="55" column="20" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.9287212" vertical-offset="492" max-vertical-offset="1122">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,10 +111,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Page.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Page.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="19" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Post.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Post.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
+            <state line="106" column="5" selection-start="2669" selection-end="2669" vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="1938">
               <folding />
             </state>
           </provider>
@@ -125,8 +132,10 @@
       <file leaf-file-name="Thread.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
-              <folding />
+            <state line="8" column="14" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding>
+                <element signature="e#180#186#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,7 +194,10 @@
         <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/utils/JsonHelper.java" />
         <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/board/BoardHelper.java" />
         <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/ChanGrab.java" />
+        <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Post.java" />
+        <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java" />
         <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java" />
+        <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java" />
       </list>
     </option>
   </component>
@@ -437,8 +449,8 @@
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.ChanGrab">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -595,7 +607,11 @@
       <created>1371919166393</created>
       <updated>1371919166393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Began adding logic for the parsing of the 4chan api.">
+      <created>1371931250026</created>
+      <updated>1371931250026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -607,7 +623,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18568996" sideWeight="0.38181818" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14310052" sideWeight="0.38181818" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -617,7 +633,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22651514" sideWeight="0.8143101" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22651514" sideWeight="0.8568995" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -671,7 +687,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added basic class structure to hold api information." />
+    <option name="LAST_COMMIT_MESSAGE" value="Began adding logic for the parsing of the 4chan api." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -688,6 +704,7 @@
     <MESSAGE value="Settting up files." />
     <MESSAGE value="Test Commit" />
     <MESSAGE value="Added basic class structure to hold api information." />
+    <MESSAGE value="Began adding logic for the parsing of the 4chan api." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -703,18 +720,16 @@
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="56" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
-          <folding />
+          <folding>
+            <element signature="e#169#175#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/ChanGrab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="20" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="918">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#927#1259#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -737,21 +752,9 @@
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="19" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Post.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
+          <folding>
+            <element signature="e#180#186#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -781,9 +784,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java">
+    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Post.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="56" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+        <state line="106" column="5" selection-start="2669" selection-end="2669" vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="1938">
           <folding />
         </state>
       </provider>
@@ -791,17 +794,38 @@
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/ChanGrab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="23" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#927#1259#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
+            <element signature="e#180#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="24" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding>
+            <element signature="e#169#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="32" selection-start="523" selection-end="523" vertical-scroll-proportion="0.19247788" vertical-offset="304" max-vertical-offset="867">
+        <state line="55" column="20" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.9287212" vertical-offset="492" max-vertical-offset="1122">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

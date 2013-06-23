@@ -6,5 +6,10 @@ import java.util.ArrayList;
  * Created by thunaer on 6/22/13.
  */
 public class Board {
-    ArrayList<Thread> threads = new ArrayList<Thread>();
+    ArrayList<Page> pages = new ArrayList<Page>();
+
+    public void addPage(Page page)
+    {
+        pages.add(page);
+    }
 }

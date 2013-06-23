@@ -21,25 +21,40 @@ public class BoardHelper {
         try {
             JSONArray threads = response.getJSONArray("thread");
 
-            parseBoard(threads);
+            board.addPage(parsePage(threads));
         } catch (JSONException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
 
     }
-    public void parseBoard(JSONArray threads) throws JSONException {
+    public Page parsePage(JSONArray threads) throws JSONException {
+        Page page = new Page();
         for(int count = 0; count < threads.length(); count++) {
             JSONObject aThread = threads.getJSONObject(count);
             JSONArray posts = aThread.getJSONArray("posts");
             parseThread(posts);
         }
+        return page;
     }
-    public void parseThread(JSONArray posts) throws JSONException {
+    public Thread parseThread(JSONArray posts) throws JSONException {
+        Thread thread = new Thread();
         for(int count = 0; count < posts.length(); count++) {
             JSONObject aPost = posts.getJSONObject(count);
-            parsePost(aPost);
+            thread.addPost(parsePost(aPost));
         }
+        return thread;
     }
-    public void parsePost(JSONObject post) {}
+    public Post parsePost(JSONObject aPost) {
+        Post post = new Post();
+
+        long no = aPost.optInt("no");
+        String name = aPost.optString("name");
+        String com = aPost.optString("com");
+
+        post.setNo(no);
+        post.setName(name);
+        post.setComment(com);
+        return post;
+    }
 }
