@@ -28,8 +28,6 @@ public class ChanGrab {
         this.boardHelper = new BoardHelper(board);
     }
     public void initiateVolley() {
-
-
         //listView.setAdapter(ba);
         RequestQueue reqQueue = Volley.newRequestQueue(context);
 
@@ -57,5 +55,10 @@ public class ChanGrab {
                 "Loading google's official blogs");
         reqQueue.add(jr);
     }
+    public void populateBoard() {
+        initiateVolley();
+        this.board = boardHelper.populateBoard();
+    }
+
 
 }

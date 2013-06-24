@@ -15,6 +15,9 @@ public class BoardHelper {
         super();
         this.board = board;
     }
+    public Board populateBoard() {
+        return null;
+    }
     public void parseJSONResponse(JSONObject response) {
         // TODO Auto-generated method stub
 
