@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13f91e6-1a3c-4dec-8d71-99a5b6136593" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/ChanGrab.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/ChanGrab.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ChanGrab.iws" />
@@ -581,7 +579,11 @@
       <created>1372033653847</created>
       <updated>1372033653847</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Small change in the board helper class">
+      <created>1372034119257</created>
+      <updated>1372034119257</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -657,7 +659,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="small change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small change in the board helper class" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -677,6 +679,7 @@
     <MESSAGE value="Began adding logic for the parsing of the 4chan api." />
     <MESSAGE value="Added some class structure for the data wrapper classes." />
     <MESSAGE value="small change" />
+    <MESSAGE value="Small change in the board helper class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
