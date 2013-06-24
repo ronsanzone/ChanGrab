@@ -1,1 +1,1 @@
-include ':ChanGrab', ':ChanGrabTest'
+include ':ChanGrab'
