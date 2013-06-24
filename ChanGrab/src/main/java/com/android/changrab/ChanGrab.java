@@ -22,7 +22,7 @@ public class ChanGrab {
 
     public ChanGrab(Context context, Board board, String url)
     {
-        this.context = context;
+        this.context = context.getApplicationContext();
         this.board = board;
         this.url = url;
         this.boardHelper = new BoardHelper(board);
