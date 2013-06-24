@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13f91e6-1a3c-4dec-8d71-99a5b6136593" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Page.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java" afterPath="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ChanGrab.iws" />
@@ -69,7 +72,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="53" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+            <state line="18" column="53" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -78,28 +81,26 @@
       <file leaf-file-name="Board.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="24" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="12" column="24" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChanGrab.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ChanGrab.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/ChanGrab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="49" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.9186603" vertical-offset="347" max-vertical-offset="918">
+            <state line="15" column="23" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BoardHelper.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BoardHelper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="20" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1173">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="46" column="14" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.5933014" vertical-offset="500" max-vertical-offset="1139">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,8 +108,10 @@
       <file leaf-file-name="Page.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <folding />
+            <state line="11" column="26" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding>
+                <element signature="e#178#184#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,7 +119,7 @@
       <file leaf-file-name="Thread.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="14" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="11" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
               <folding>
                 <element signature="e#180#186#0" expanded="true" />
               </folding>
@@ -179,7 +182,6 @@
         <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/utils/JsonHelper.java" />
         <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/board/BoardHelper.java" />
         <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Post.java" />
-        <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java" />
         <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java" />
         <option value="$PROJECT_DIR$/ChanGrabTest/src/main/java/com/android/changrabtest/TestActivity.java" />
         <option value="$PROJECT_DIR$/ChanGrabTest/build.gradle" />
@@ -187,6 +189,8 @@
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/ChanGrab/build.gradle" />
         <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/ChanGrab.java" />
+        <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Page.java" />
+        <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java" />
         <option value="$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java" />
       </list>
     </option>
@@ -223,7 +227,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -382,6 +385,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -397,11 +401,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="Android Application.ChanGrab">
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
@@ -583,7 +587,11 @@
       <created>1372034119257</created>
       <updated>1372034119257</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Small change in the board helper class">
+      <created>1372034129567</created>
+      <updated>1372034129567</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -597,9 +605,8 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24361159" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24361159" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24361159" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22487223" sideWeight="0.49848485" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.7563884" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -613,6 +620,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22487223" sideWeight="0.49848485" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.6181818" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -685,6 +693,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
+          <folding>
+            <element signature="e#178#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="14" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="357">
+          <folding>
+            <element signature="e#180#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="19" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="221">
@@ -696,9 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/volley/RequestQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="3703" selection-end="3703" vertical-scroll-proportion="0.9088472" vertical-offset="919" max-vertical-offset="4522">
-          <folding />
-        </state>
+        <state line="98" column="0" selection-start="3703" selection-end="3703" vertical-scroll-proportion="0.9088472" vertical-offset="919" max-vertical-offset="4522" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/Context.class">
@@ -708,9 +732,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/volley/toolbox/Volley.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="51" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.54423594" vertical-offset="715" max-vertical-offset="1088">
-          <folding />
-        </state>
+        <state line="77" column="51" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.54423594" vertical-offset="715" max-vertical-offset="1088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Post.java">
@@ -722,39 +744,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
-          <folding />
-        </state>
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChanGrab/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="174" selection-end="174" vertical-scroll-proportion="0.36956522" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="e#180#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
+        <state line="8" column="30" selection-start="174" selection-end="174" vertical-scroll-proportion="0.36956522" vertical-offset="0" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Board.java">
@@ -771,18 +771,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java">
+    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="20" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1173">
+        <state line="11" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#180#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding>
+            <element signature="e#178#184#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/ChanGrab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="49" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.9186603" vertical-offset="347" max-vertical-offset="918">
+        <state line="15" column="23" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChanGrab/src/main/java/com/android/changrab/chan/BoardHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="14" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.5933014" vertical-offset="500" max-vertical-offset="1139">
           <folding />
         </state>
       </provider>

@@ -44,7 +44,7 @@ public class BoardHelper {
         Thread thread = new Thread();
         for(int count = 0; count < posts.length(); count++) {
             JSONObject aPost = posts.getJSONObject(count);
-            thread.addPost(parsePost(aPost));
+            //thread.addPost(parsePost(aPost));
         }
         return thread;
     }
