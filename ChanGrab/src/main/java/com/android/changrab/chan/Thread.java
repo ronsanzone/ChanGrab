@@ -6,32 +6,14 @@ import java.util.ArrayList;
  * Created by thunaer on 6/22/13.
  */
 public class Thread {
-    protected ArrayList<Page> pages = new ArrayList<Page>();
-    protected int currentPage;
-    protected int numberPages;
+    private ArrayList<Post> posts = new ArrayList<Post>();
 
-    public ArrayList<Page> getPages()
+    public ArrayList<Post> getPosts()
     {
-        return this.pages;
+        return posts;
     }
-    public Page getCurrentPage(){
-        return pages.get(currentPage);
-    }
-    public int getCurrentPageNumber() {
-        return currentPage;
-    }
-    public void advancePage() {
-        this.currentPage = currentPage + 1;
-    }
-    public int getNumberPages() {
-        return numberPages;
-    }
-    public void setNumberPages(int numberPages) {
-        this.numberPages = numberPages;
-    }
-    public void addPage(Page page)
+    public void addPost(Post post)
     {
-        pages.add(page);
-        numberPages = pages.size();
+        posts.add(post);
     }
 }

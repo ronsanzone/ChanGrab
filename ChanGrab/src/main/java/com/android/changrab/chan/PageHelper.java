@@ -7,24 +7,27 @@ import org.json.JSONObject;
 /**
  * Created by thunaer on 6/22/13.
  */
-public class BoardHelper {
-    public Board board;
+public class PageHelper {
+    public Page page;
 
-    public BoardHelper(Board board)
+    public PageHelper(Page page)
     {
         super();
-        this.board = board;
+        this.page = page;
     }
     public Board populateBoard() {
         return null;
+    }
+    public Page getPage()
+    {
+        return this.page;
     }
     public void parseJSONResponse(JSONObject response) {
         // TODO Auto-generated method stub
 
         try {
             JSONArray threads = response.getJSONArray("thread");
-
-            board.addPage(parsePage(threads));
+            this.page  = parsePage(threads);
         } catch (JSONException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -36,7 +39,7 @@ public class BoardHelper {
         for(int count = 0; count < threads.length(); count++) {
             JSONObject aThread = threads.getJSONObject(count);
             JSONArray posts = aThread.getJSONArray("posts");
-            parseThread(posts);
+            page.addThread(parseThread(posts));
         }
         return page;
     }
@@ -44,7 +47,7 @@ public class BoardHelper {
         Thread thread = new Thread();
         for(int count = 0; count < posts.length(); count++) {
             JSONObject aPost = posts.getJSONObject(count);
-            //thread.addPost(parsePost(aPost));
+            thread.addPost(parsePost(aPost));
         }
         return thread;
     }

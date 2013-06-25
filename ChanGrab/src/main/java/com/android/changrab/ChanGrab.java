@@ -15,17 +15,18 @@ import org.json.JSONObject;
  */
 public class ChanGrab {
     private Board board = new Board();
-    BoardHelper boardHelper;
-    Context context;
-    String url = "";
-    ProgressDialog progress;
+    private Page page = new Page();
+    private PageHelper pageHelper;
+    private Context context;
+    private String url = "";
+    private ProgressDialog progress;
 
     public ChanGrab(Context context, Board board, String url)
     {
         this.context = context.getApplicationContext();
         this.board = board;
         this.url = url;
-        this.boardHelper = new BoardHelper(board);
+        this.pageHelper = new PageHelper(page);
     }
     public void initiateVolley() {
         //listView.setAdapter(ba);
@@ -37,7 +38,7 @@ public class ChanGrab {
             @Override
             public void onResponse(JSONObject response) {
                 // TODO Auto-generated method stub
-                boardHelper.parseJSONResponse(response);
+                pageHelper.parseJSONResponse(response);
                 //ba.notifyDataSetChanged();
                 progress.dismiss();
             }
@@ -57,7 +58,11 @@ public class ChanGrab {
     }
     public void populateBoard() {
         initiateVolley();
-        this.board = boardHelper.populateBoard();
+        this.board.addPage(pageHelper.getPage());
+    }
+    public Board getBoard()
+    {
+        return board;
     }
 
 

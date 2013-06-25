@@ -12,4 +12,8 @@ public class Board {
     {
         pages.add(page);
     }
+    public void testMethod(){
+        for(int i =0; i < 100; i++)
+        {}
+    }
 }

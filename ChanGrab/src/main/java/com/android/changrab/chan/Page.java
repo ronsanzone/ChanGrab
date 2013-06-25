@@ -6,10 +6,14 @@ import java.util.ArrayList;
  * Created by thunaer on 6/23/13.
  */
 public class Page {
-    protected ArrayList<Post> posts = new ArrayList<Post>();
+    protected ArrayList<Thread> threads = new ArrayList<Thread>();
 
-    public ArrayList<Post> getPosts() {
-        return this.posts;
+    public ArrayList<Thread> getThreads() {
+        return this.threads;
+    }
+    public void addThread(Thread thread)
+    {
+        this.threads.add(thread);
     }
 
 }

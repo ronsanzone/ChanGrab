@@ -4,10 +4,17 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
+import com.android.changrab.chan.Board;
 public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Board b = new Board();
+        ChanGrab cg = new ChanGrab(this, b, "http://api.4chan.org/x/0.json");
+        cg.initiateVolley();
+        cg.populateBoard();
+        b = cg.getBoard();
+        b.testMethod();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
